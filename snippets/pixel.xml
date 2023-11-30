@@ -2,10 +2,10 @@
 <manifest>
   
   <!-- Remove Projects -->
-  <remove-project name="device/google/raviole" />
-  <remove-project name="device/google/gs101" />
-  <remove-project name="device/google/gs101-sepolicy" />
-  <remove-project name="device/google/raviole-kernel" />
+  <!-- <remove-project name="device/google/raviole" /> -->
+  <!-- <remove-project name="device/google/gs101" /> -->
+  <!-- <remove-project name="device/google/gs101-sepolicy" /> -->
+  <!-- <remove-project name="device/google/raviole-kernel" /> -->
 
   <!-- Manifest -->
   <project path="device/google/raviole" name="RisingOSS-devices/android_device_google_raviole" remote="github" groups="device,slider,pdk-gs-arm" revision="fourteen" />
